@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Family";
+    src: url("family.TTF");
+}
+
+@font-face {
+    font-family: "Viejuna";
+    src: url("Fuente.ttf");
+}
+
+h1{
+    font-family: Family;
+    font-size: 20px;
+    text-align: center;
+}
+
+body{    
+    background-color: black;
+    background-image: url("fondo.jpeg");
+    background-size: cover;
+}
+
+.aviso{
+    width: 1050px;
+    background-color: black;
+    margin: 0 auto;
+    text-align: justify;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    background-image: url("viejuno.jpeg");
+    font-family: Viejuna;
+    font-size: 20px;
+    position: relative;
+    top: 150px;
+}
+
+.firma{
+    padding-left: 10px;   
+    text-align: center;
+    font-family: Family;
+}
+
+#stewie{
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cuqui{
+    color:white;
+}
